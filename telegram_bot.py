@@ -1,12 +1,12 @@
 import logging
 from telegram import Bot
 
-# Enable logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = "7422699194:AAH44omoiKdhXiKfyDbOqDNH9ZoSi9tBX-k"  # Replace with your token
-CHAT_ID = "688676895"  # Replace with your chat ID
+TELEGRAM_TOKEN = "7422699194:AAH44omoiKdhXiKfyDbOqDNH9ZoSi9tBX-k"  
+CHAT_ID = "688676895"  
 
 async def send_telegram_notification(message):
     try:
